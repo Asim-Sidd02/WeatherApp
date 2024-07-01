@@ -51,6 +51,11 @@ Install the dependencies using flutter:
 ```sh
 flutter pub get
 ```
+Run the project:
+
+```sh
+flutter run
+```
 
 ## File Structure
 
@@ -64,7 +69,7 @@ The project directory structure is organized as follows:
   - **weather_service.dart**
 - **Screens/**: 
   - **home_screen.dart**
-  - weather_detail_screen.dart
+  - **weather_detail_screen.dart**
  
 - **README.md**: Project overview and file structure details.
 - **pubspec.yaml**: Flutter project configuration file with dependencies and other settings.
