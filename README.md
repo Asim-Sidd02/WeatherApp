@@ -15,7 +15,7 @@
 
 ## Introduction
 
-This Flutter app provides a user-friendly interface to view current weather details and a forecast for the next five days based on the selected city. It utilizes a public API to fetch real-time weather data and stores this information locally using Hive, ensuring data availability even when offline.
+A simple weather app built with Flutter that allows users to search for weather information by city
 
 ## Features
 
