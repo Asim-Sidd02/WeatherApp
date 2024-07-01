@@ -39,7 +39,7 @@ Before running the application, ensure you have the following installed:
 Clone the repository:
 
 ```sh
-git clone https://github.com/Asim-Sidd02/Weather-App.git
+git clone https://github.com/Asim-Sidd02/WeatherApp.git
 cd Weather-App
 
 
