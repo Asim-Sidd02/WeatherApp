@@ -1,6 +1,6 @@
 # Flutter Weather App
 
-## _This Flutter application fetches and displays current weather and 5-day forecast for a selected city using a public API. It also stores the selected city and weather data locally for offline access._
+## _A simple weather app built with Flutter that allows users to search for weather information by city._
 
 ## Table of Contents
 
@@ -9,7 +9,7 @@
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [File Structure](#file-structure)
-- [ScreenShots](#screenshots)
+
 - [Author](#author)
 - [License](#license)
 
@@ -19,10 +19,11 @@ This Flutter app provides a user-friendly interface to view current weather deta
 
 ## Features
 
-- Display current weather information including temperature, description, sunrise, sunset, humidity, and precipitation.
-- Show a 5-day weather forecast with details like date, temperature, and description.
-- Store selected city and fetched weather data locally for offline access.
-- Simple and clean UI designed for ease of use.
+- Search for weather information by city name
+- Display current temperature, weather condition, humidity, and wind speed
+- Responsive design that works on both mobile and tablet devices
+- Refresh button to fetch updated weather data
+- Persistent storage of the last searched city
 
 ## Prerequisites
 
@@ -61,9 +62,9 @@ The project directory structure is organized as follows:
   - **weather_provider.dart**
 - **services/**: 
   - **weather_service.dart**
-  - - **Screens/**: 
-   - **home_screen.dart**
-   - weather_detail_screen
+- **Screens/**: 
+  - **home_screen.dart**
+  - weather_detail_screen.dart
  
 - **README.md**: Project overview and file structure details.
 - **pubspec.yaml**: Flutter project configuration file with dependencies and other settings.
