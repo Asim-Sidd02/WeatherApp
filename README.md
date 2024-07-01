@@ -55,16 +55,16 @@ flutter pub get
 
 The project directory structure is organized as follows:
 
-- **lib/**: Contains Dart code for the Flutter application.
-  - **main.dart**: Entry point of the application.
-  - **weather_screen.dart**: UI code for displaying weather information.
-- **models/**: Contains data model classes.
-  - **weather_data.dart**: Model class for current weather data.
-  - **forecast_data.dart**: Model class for forecast data.
-- **services/**: Contains service classes.
-  - **api_service.dart**: Handles API requests to fetch weather data.
-  - **hive_setup.dart**: Sets up local storage using Hive for storing weather data.
-  - **storage_service.dart**: Manages storing and retrieving data locally.
+- **lib/**: 
+  - **main.dart** 
+- **Provider/**:
+  - **weather_provider.dart**
+- **services/**: 
+  - **weather_service.dart**
+  - - **Screens/**: 
+   - **home_screen.dart**
+   - weather_detail_screen
+ 
 - **README.md**: Project overview and file structure details.
 - **pubspec.yaml**: Flutter project configuration file with dependencies and other settings.
 
