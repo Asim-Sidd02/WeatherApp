@@ -2,6 +2,8 @@
 
 ## _A simple weather app built with Flutter that allows users to search for weather information by city._
 
+![App Preview](https://example.com/path/to/your/gif.gif)
+
 ## Table of Contents
 
 - [Introduction](#introduction)
